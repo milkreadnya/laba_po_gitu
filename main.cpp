@@ -1,7 +1,12 @@
 #include <iostream>
 
+<<<<<<< HEAD
 void printDifference(int x, int y) {
         std::cout << "Разность " << x - y;
+=======
+void printDifference(int x, int y) {
+        std::cout << "Разность " << x - y;
+>>>>>>> 257517f (Add printProduct function)
 }
 
 int main() {
