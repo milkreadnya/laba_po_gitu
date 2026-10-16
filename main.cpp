@@ -11,5 +11,6 @@ int main() {
         std::cin >> a >> b;
         std::cout << "Вы ввели " << a << ' ' << b;
         std::cout << "Сумма " << a + b;
+	printDifference(a, b);
         return 0;
 }
