@@ -6,5 +6,6 @@ int main() {
 	std::cout << "Введите два целых числа:";
 	std::cin >> a >> b;
 	std::cout << "Вы ввели " << a << ' ' << b;
+	std::cout << "Сумма " << a + b;
 	return 0;
 }
