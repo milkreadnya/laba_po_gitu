@@ -8,6 +8,10 @@ void printProduct(int x, int y) {
         std::cout << "Произведение " << x * y;
 }
 
+void printAverage(int x, int y) {
+        std::cout << "Среднее " << (x + y) / 2.0;
+}
+
 int main() {
         std::cout << "Hello Git!";
         int a, b;
@@ -17,5 +21,6 @@ int main() {
         std::cout << "Разность " << a - b;
         printDifference(a, b);
         printProduct(a, b);
+        printAverage(a, b);
         return 0;
 }
